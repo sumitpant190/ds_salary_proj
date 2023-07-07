@@ -18,8 +18,6 @@ Repo for the data science salary prediction project
 **Project Tutorial by Ken Jee** https://www.youtube.com/watch?v=MpF9HENQjDo&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=1
  
 
-## YouTube Project Walk-Through
-https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
 
 ## Web Scraping
 Tweaked the web scraper github repo (above) to scrape 1000 job postings from glassdoor.com. With each job, we got the following:
