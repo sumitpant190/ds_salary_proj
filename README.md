@@ -15,7 +15,6 @@ Repo for the data science salary prediction project
 **Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
 **Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
 **Flask Productionization:** https://towardsdatascience.com/productionize-a-machine-learning-model-with-flask-and-heroku-8201260503d2
-
 **Project Tutorial by Ken Jee** https://www.youtube.com/watch?v=MpF9HENQjDo&list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t&index=1
  
 
