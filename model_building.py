@@ -86,12 +86,26 @@ gs.best_estimator_
 # test ensembles
 tpred_lm = lm.predict(x_test)
 tpred_lml = lm_1.predict(x_test)
-tpred_rf = gs.best_estimators_.predict(x_test)
+tpred_rf = gs.best_estimator_.predict(x_test)
 
 from sklearn.metrics import mean_absolute_error
 mean_absolute_error(y_test,tpred_lm)
-mean_absolute_error(y_test,tpred_lm1)
+mean_absolute_error(y_test,tpred_lml )
 mean_absolute_error(y_test,tpred_rf)
 
 mean_absolute_error(y_test,(tpred_lm + tpred_rf)/2)
+
+
+import pickle
+pick1 = {'model' : gs.best_estimator_}
+pickle.dump(pick1, open('model_file' + ".p","wb"))
+
+file_name = "model_file.p"
+with open(file_name,'rb') as pickled:
+    data = pickle.load(pickled)
+    model = data['model']
+
+model.predict(x_test.iloc[1,:].values.reshape(1,-1))
+
+
 
